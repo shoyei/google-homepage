@@ -1,0 +1,254 @@
+body {
+    font-family: arial, sans-serif;
+    background: white;
+    color: #222;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    opacity:.75
+}
+
+form {
+    display: inline-block;
+}
+
+a:visited {
+    color: #000;
+    opacity:.75
+}
+
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+div {
+    display: block;
+    text-align: center;
+    position: relative;
+}
+
+main {
+    margin-top: 89px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    position: fixed; 
+    padding: 10px 10px 10px 10px; 
+    bottom: 0; 
+    width: 100%;
+    background: #f2f2f2;
+    min-width: 980px;
+    border-top: 1px solid #e4e4e4;
+    min-width: 400px;
+    line-height: 30px;
+}
+
+.top_left .top_right a {
+    color: #000;
+    text-decoration: none;
+    font-size: 13px;
+    opacity: .75;
+}
+
+.top_left {
+    top: 16px;
+    position: absolute;
+    margin: 7px 0 0 10px;
+}
+
+.top_right {
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+    margin: 7px 0 0 10px;
+    float: right;
+    top: 16px;
+    right: 0px;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1 auto;
+    display: flex;
+    min-width: 220px;
+}
+
+#about {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#store {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#gmail {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#images {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+#waffle {
+    display: inline-block;
+    padding-right: 15px;
+    opacity: .55;
+    position: relative;
+    vertical-align: middle;
+}
+
+#waffle:hover {
+    opacity: 1;
+}
+
+
+#sign_in {
+    padding-right: 15px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.under_logo {
+    position: absolute;
+}
+
+
+input[type=text] {
+       border: 0px;
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       max-width: 450px;
+       max-height: 40px;
+       font-size: 25px;
+}
+
+input[type=text]:focus {
+        outline: none;
+}
+
+.searchbar {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    padding: 5px 8px 0 16px;
+    position: relative;
+    text-align: center;
+}
+
+input[type="submit"] {
+    position: relative;
+    top: 30px;
+    align-items: center;
+    height: 36px;
+    line-height: 27px;
+    -moz-border-radius: 2px;
+    -moz-user-select: none;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    padding: 0 16px;
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.search_button:hover, .lucky_button:hover {
+    position: absolute;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.bottom_left {
+    margin-left: 30px;
+    float: left;
+}
+
+.bottom_right {
+    margin-right: 30px;
+    float: right;
+}
+
+#advertising{
+    display: inline-block;
+
+    font-size: 15px; 
+}
+
+#business{
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 15px; 
+}
+
+#how_search_works {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 15px; 
+}
+
+#privacy {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 15px; 
+}
+
+#terms {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 15px; 
+}
+
+#settings {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 15px; 
+    padding-right: 15px;
+}
+
+a footer {
+    display: inline-block;
+    color: #5f6368;
+    margin: 2px 10px 0;
+    text-decoration: none;
+    white-space: nowrap;
+    padding-left: 27px;
+    font-size: 10px; 
+}
